@@ -1,3 +1,14 @@
+## Environment:
+
+* Python 2.x
+* Pathos (used for multiprocessing)
+* bs4
+
+
+
+
+
+
 ## Minimal Viable Product
 ### Download file from SEC  
 Parallelization

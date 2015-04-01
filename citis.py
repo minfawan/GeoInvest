@@ -1,7 +1,7 @@
 from __future__ import print_function
 import os
-
 class Cities:
+	
 	def __init__(self, cities_dir='cities_json'):
 		self.cities_dir = cities_dir
 		self.lookup_file = 'city_state_lookup.p'
@@ -120,6 +120,12 @@ class Cities:
 		# for key, val in data.items():
 		# 	print(key.encode('ascii', 'ignore'), val)
 		return data
+
+	def init_state_count_table(self):
+		city_count_table = {}
+		for abbr, state in self.states.items():
+			city_count_table[state.lower()] = 0
+		return city_count_table
 
 
 

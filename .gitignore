@@ -1,0 +1,7 @@
+files/
+test_folder/
+cities_json/
+.DS_Store
+*/.DS_Store
+__pycache__/
+*.pyc
